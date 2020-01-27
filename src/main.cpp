@@ -1,5 +1,8 @@
+/*
+* Micromouse project code 
+*/
 #include <Arduino.h>
-#define receiver A0 //LED port on teensy 3.2
+#define receiver A0 
 
 void setup() {
   pinMode(receiver,INPUT); //pass in var receiver a0 into INPUT keyword is in Arduino library
